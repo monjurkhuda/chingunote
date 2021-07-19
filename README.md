@@ -5,6 +5,7 @@ This is a note taking web app that was build as a solo project to apply to join 
 ## Features
 
 ###Authentication
+
 The Chingu note app has authentication set up for users to sign in, sign up, or retreive their forgotten passwords.
 
 Once logged in, users can create notes with a title and a body. The user can edit or delete these notes in the future. The bottom of each note will tell when the note was last edited.
