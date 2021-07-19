@@ -17,7 +17,7 @@ Once logged in, users can create notes with a title and a body. The user can edi
 ### Clone this repository
 
 Clone this repository locally.
-Run npm install in your terminal, if you don't have npm.
+Run "npm install" in your terminal.
 
 ### Set Up A Firebase Project
 Chingu Note App uses Firebase authentication and Realtime Database (I am using Firebase hosting as well for the demo, but you are free to host it anywhere).
@@ -34,7 +34,7 @@ REACT_APP_FIREBASE_STORAGE_BUCKET=
 REACT_APP_FIREBASE_SENDER_ID=
 ```
 
-Run npm start to launch it in localhost.
+Run "npm start" to launch it in localhost.
 
 
 ## Dependecies
@@ -43,4 +43,5 @@ Run npm start to launch it in localhost.
 - React DOM
 - React Router
 - React Router Dom
-- Firebase 
+- Firebase
+- npm
