@@ -1,35 +1,23 @@
-# Getting Started with Create React App
+# Chingu Note App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a note taking web app that was build as a solo project to apply to join Chingu (https://github.com/chingu-voyages)
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+###Authentication
+The Chingu note app has authentication set up for users to sign in, sign up, or retreive their forgotten passwords.
 
-### `npm start`
+Once logged in, users can create notes with a title and a body. The user can edit or delete these notes in the future. The bottom of each note will tell when the note was last edited.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Run Chingu Note App
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+###Authentication
+The Chingu note app has authentication set up for users to sign in, sign up, or retreive their forgotten passwords.
 
-### `npm test`
+Once logged in, users can create notes with a title and a body. The user can edit or delete these notes in the future. The bottom of each note will tell when the note was last edited.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
 
 **Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
