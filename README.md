@@ -14,48 +14,33 @@ Once logged in, users can create notes with a title and a body. The user can edi
 
 ## Run Chingu Note App
 
+### Clone this repository
+
+Clone this repository locally.
+Run npm install in your terminal, if you don't have npm.
+
 ### Set Up A Firebase Project
-The Chingu note app has authentication set up for users to sign in, sign up, or retreive their forgotten passwords.
+Chingu Note App uses Firebase authentication and Realtime Database (I am using Firebase hosting as well for the demo, but you are free to host it anywhere).
 
-Once logged in, users can create notes with a title and a body. The user can edit or delete these notes in the future. The bottom of each note will tell when the note was last edited.
+Create a firebase project for the web.
+Create a .env file in the root folder where you downloaded the project.
+Copy the configurations of your firebase project to the .env file in the appropriate place.
+
+```
+REACT_APP_FIREBASE_KEY=
+REACT_APP_FIREBASE_DOMAIN=
+REACT_APP_FIREBASE_PROJECT_ID=
+REACT_APP_FIREBASE_STORAGE_BUCKET=
+REACT_APP_FIREBASE_SENDER_ID=
+```
+
+Run npm start to launch it in localhost.
 
 
+## Dependecies
 
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- React
+- React DOM
+- React Router
+- React Router Dom
+- Firebase 
