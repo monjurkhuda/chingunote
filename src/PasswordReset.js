@@ -21,7 +21,7 @@ function PasswordReset() {
 
   return (
     <div className="signin__container">
-      <div className="auth__title">Monjur Pingu Journal</div>
+      <div className="auth__title">Monjur Chingu Journal</div>
       <label className="auth__subtitle">Forgot password?</label>
       <input
         className="auth__input"

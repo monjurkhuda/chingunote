@@ -25,7 +25,7 @@ const SignUp = ({ history }) => {
 
   return (
     <div className="signin__container">
-      <div className="auth__title">Monjur Pingu Journal</div>
+      <div className="auth__title">Monjur Chingu Journal</div>
 
       <form onSubmit={handleSignUp}>
         <label className="auth__subtitle">Sign Up</label>
